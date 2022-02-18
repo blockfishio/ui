@@ -11,12 +11,16 @@ import './Navbar.css'
 export type NavbarI18N = {
   menu: {
     marketplace: React.ReactNode
-    docs: React.ReactNode
-    events: React.ReactNode
-    agora: React.ReactNode
+    // docs: React.ReactNode
+    // events: React.ReactNode
+    // agora: React.ReactNode
     dao: React.ReactNode
-    blog: React.ReactNode
-    builder: React.ReactNode
+    // blog: React.ReactNode
+    // builder: React.ReactNode,
+    info:React.ReactNode,
+    getstarted:React.ReactNode,
+    getspay:React.ReactNode,
+    leaderboard:React.ReactNode
   }
   account: {
     signIn: React.ReactNode
@@ -35,6 +39,11 @@ export type NavbarProps = {
     | 'dao'
     | 'blog'
     | 'builder'
+    | 'getstarted'
+    | 'info'
+    | 'getspay'
+    | 'leaderboard'
+    | 'info'
     | string
   leftMenu?: React.ReactNode
   middleMenu?: React.ReactNode
@@ -64,12 +73,16 @@ export class Navbar extends React.PureComponent<NavbarProps, NavbarState> {
     i18n: {
       menu: {
         marketplace: 'Marketplace',
-        docs: 'Docs',
-        events: 'Events',
-        agora: 'Agora',
+        // docs: 'Docs',
+        // events: 'Events',
+        // agora: 'Agora',
         dao: 'DAO',
-        blog: 'Blog',
-        builder: 'Builder'
+        // blog: 'Blog',
+        // builder: 'Builder',
+        info:'Info',
+        leaderboard:"Leaderboard",
+        getstarted:"Get Started",
+        getspay:"Get Spay"
       },
       account: {
         signIn: 'Sign In',
@@ -112,39 +125,39 @@ export class Navbar extends React.PureComponent<NavbarProps, NavbarState> {
       <>
         <Menu.Item
           active={activePage === 'marketplace'}
-          href="https://market.decentraland.org"
+          href="https://market.spacey2025.com"
         >
           {i18n.menu.marketplace}
         </Menu.Item>
         <Menu.Item
-          active={activePage === 'builder'}
-          href="https://builder.decentraland.org"
+          active={activePage === 'getstarted'}
+          href="https://docs.spacey2025.com"
         >
-          {i18n.menu.builder}
+          {i18n.menu.getstarted}
         </Menu.Item>
         <Menu.Item
-          active={activePage === 'docs'}
-          href="https://docs.decentraland.org"
+          active={activePage === 'getspay'}
+          href="https://spacey2025.com/getspay"
         >
-          {i18n.menu.docs}
-        </Menu.Item>
-        <Menu.Item
-          active={activePage === 'events'}
-          href="https://events.decentraland.org"
-        >
-          {i18n.menu.events}
+          {i18n.menu.getspay}
         </Menu.Item>
         <Menu.Item
           active={activePage === 'dao'}
-          href="https://dao.decentraland.org"
+          href="https://dao.spacey2025.com"
         >
           {i18n.menu.dao}
         </Menu.Item>
         <Menu.Item
-          active={activePage === 'blog'}
-          href="https://decentraland.org/blog"
+          active={activePage === 'leaderboard'}
+          href="https://reward.spacey2025.com"
         >
-          {i18n.menu.blog}
+          {i18n.menu.leaderboard}
+        </Menu.Item>
+        <Menu.Item
+          active={activePage === 'info'}
+          href="https://spacey2025.com/info"
+        >
+          {i18n.menu.info}
         </Menu.Item>
       </>
     )
@@ -241,7 +254,7 @@ export class Navbar extends React.PureComponent<NavbarProps, NavbarState> {
           <div className="dcl navbar-menu">
             <NotMobile>
               <Menu secondary stackable>
-                <a className="dcl navbar-logo" href="https://decentraland.org">
+                <a className="dcl navbar-logo" href="https://spacey2025.com">
                   <Logo />
                 </a>
                 {this.renderLeftMenu()}
@@ -249,7 +262,7 @@ export class Navbar extends React.PureComponent<NavbarProps, NavbarState> {
             </NotMobile>
             <Mobile>
               <div className="dcl navbar-mobile-menu">
-                <a className="dcl navbar-logo" href="https://decentraland.org">
+                <a className="dcl navbar-logo" href="https://spacey2025.com">
                   <Logo />
                 </a>
                 <Header

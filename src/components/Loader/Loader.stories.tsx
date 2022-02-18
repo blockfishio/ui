@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { ProviderType } from '@dcl/schemas/dist/dapps/provider-type'
+import { ProviderType } from '@spacey2025/schemas/dist/dapps/provider-type'
 import { storiesOf } from '@storybook/react'
 import centered from '@storybook/addon-centered/react'
 import { Loader } from './Loader'
@@ -23,7 +23,7 @@ storiesOf('Loader', module)
           />
         </Grid.Column>
         <Grid.Column tablet={4}>
-          <Loader active size="massive" provider={ProviderType.FORTMATIC} />
+          <Loader active size="massive" provider={ProviderType.FORTMATIC_ETH} />
         </Grid.Column>
       </Grid.Row>
     </Grid>

@@ -8,7 +8,8 @@ import './LoginModal.css'
 export enum LoginModalOptionType {
   METAMASK = 'metamask',
   DAPPER = 'dapper',
-  FORTMATIC = 'fortmatic',
+  FORTMATIC_ETH = "fortmatic-eth",
+  FORTMATIC_BSC = "fortmatic-bsc",
   COINBASE = 'coinbase',
   SAMSUNG = 'samsung-blockchain-wallet',
   WALLET_CONNECT = 'wallet-connect'
@@ -72,11 +73,14 @@ class LoginModalOption extends React.PureComponent<LoginModalOptionProps> {
         subtitle = i18n.browser_extension
         break
 
-      case LoginModalOptionType.FORTMATIC:
-        title = 'Fortmatic'
-        subtitle = i18n.email
-        break
-
+      case LoginModalOptionType.FORTMATIC_ETH:
+        title = 'Fortmatic-ETH';
+        subtitle = i18n.email;
+        break;
+      case LoginModalOptionType.FORTMATIC_BSC:
+        title = 'Fortmatic-BSC';
+        subtitle = i18n.email;
+        break;
       case LoginModalOptionType.SAMSUNG:
         title = 'Samsung Blockchain Wallet'
         subtitle = i18n.mobile

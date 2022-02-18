@@ -1,4 +1,4 @@
-import { Network } from '@dcl/schemas'
+import { Network } from '@spacey2025/schemas'
 import * as React from 'react'
 import { Avatar } from '../../types/avatar'
 import Menu from 'semantic-ui-react/dist/commonjs/collections/Menu'
@@ -106,7 +106,7 @@ export class UserMenu extends React.Component<UserMenuProps, UserMenuState> {
 
     const { isOpen, isClickable } = this.state
 
-    const name = avatar ? avatar.name : null
+    const name = avatar ? avatar.ethAddress.slice(0,6) : null
 
     return (
       <Row className="dcl user-menu-wrapper">
@@ -131,8 +131,8 @@ export class UserMenu extends React.Component<UserMenuProps, UserMenuState> {
                     network={network as Network}
                     size="small"
                     className={onClickBalance ? 'clickable' : undefined}
-                    title={`${manaBalances[network].toLocaleString()} MANA`}
-                    href="https://account.decentraland.org"
+                    title={`${manaBalances[network].toLocaleString()} SPAY`}
+                    // href="https://account.decentraland.org"
                   >
                     {Math.floor(manaBalances[network]).toLocaleString()}
                   </Mana>

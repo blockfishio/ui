@@ -34,7 +34,8 @@ export class Profile extends React.PureComponent<ProfileProps> {
       size,
       isDecentraland
     } = this.props
-    const name = (avatar && avatar.name) || address.slice(0, 6)
+    // const name = (avatar && avatar.name) || address.slice(0, 6)
+    const name = address.slice(0, 6)
 
     if (isDecentraland) {
       return (
@@ -43,7 +44,7 @@ export class Profile extends React.PureComponent<ProfileProps> {
           title={address}
         >
           <Logo />
-          {imageOnly ? null : <span className="name">Decentraland</span>}
+          {imageOnly ? null : <span className="name">SpaceY2025</span>}
         </span>
       )
     }

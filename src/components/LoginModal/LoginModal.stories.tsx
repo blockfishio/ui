@@ -55,7 +55,8 @@ storiesOf('LoginModal', module)
         <LoginModal.Option type={LoginModalOptionType.DAPPER} />
         <LoginModal.Option type={LoginModalOptionType.COINBASE} />
         <LoginModal.Option type={LoginModalOptionType.SAMSUNG} />
-        <LoginModal.Option type={LoginModalOptionType.FORTMATIC} />
+        <LoginModal.Option type={LoginModalOptionType.FORTMATIC_ETH} />
+        <LoginModal.Option type={LoginModalOptionType.FORTMATIC_BSC} />
         <LoginModal.Option type={LoginModalOptionType.WALLET_CONNECT} />
       </LoginModal>
     </div>
@@ -72,7 +73,8 @@ storiesOf('LoginModal', module)
         <LoginModal.Option type={LoginModalOptionType.DAPPER} />
         <LoginModal.Option type={LoginModalOptionType.COINBASE} />
         <LoginModal.Option type={LoginModalOptionType.SAMSUNG} />
-        <LoginModal.Option type={LoginModalOptionType.FORTMATIC} />
+        <LoginModal.Option type={LoginModalOptionType.FORTMATIC_ETH} />
+        <LoginModal.Option type={LoginModalOptionType.FORTMATIC_BSC} />
         <LoginModal.Option type={LoginModalOptionType.WALLET_CONNECT} />
       </LoginModal>
     </div>
@@ -85,7 +87,8 @@ storiesOf('LoginModal', module)
         <LoginModal.Option type={LoginModalOptionType.DAPPER} />
         <LoginModal.Option type={LoginModalOptionType.COINBASE} />
         <LoginModal.Option type={LoginModalOptionType.SAMSUNG} />
-        <LoginModal.Option type={LoginModalOptionType.FORTMATIC} />
+        <LoginModal.Option type={LoginModalOptionType.FORTMATIC_ETH} />
+        <LoginModal.Option type={LoginModalOptionType.FORTMATIC_BSC} />
         <LoginModal.Option type={LoginModalOptionType.WALLET_CONNECT} />
       </LoginModal>
     </div>
@@ -97,7 +100,8 @@ storiesOf('LoginModal', module)
         <LoginModal.Option type={LoginModalOptionType.METAMASK} />
         <LoginModal.Option type={LoginModalOptionType.DAPPER} />
         <LoginModal.Option type={LoginModalOptionType.SAMSUNG} />
-        <LoginModal.Option type={LoginModalOptionType.FORTMATIC} />
+        <LoginModal.Option type={LoginModalOptionType.FORTMATIC_ETH} />
+        <LoginModal.Option type={LoginModalOptionType.FORTMATIC_BSC} />
         <LoginModal.Option type={LoginModalOptionType.WALLET_CONNECT} />
       </LoginModal>
     </div>
@@ -116,7 +120,8 @@ storiesOf('LoginModal', module)
         <LoginModal.Option type={LoginModalOptionType.DAPPER} />
         <LoginModal.Option type={LoginModalOptionType.COINBASE} />
         <LoginModal.Option type={LoginModalOptionType.SAMSUNG} />
-        <LoginModal.Option type={LoginModalOptionType.FORTMATIC} />
+        <LoginModal.Option type={LoginModalOptionType.FORTMATIC_ETH} />
+        <LoginModal.Option type={LoginModalOptionType.FORTMATIC_BSC} />
         <LoginModal.Option type={LoginModalOptionType.WALLET_CONNECT} />
       </LoginModal>
     </div>

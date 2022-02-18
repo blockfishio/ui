@@ -72,6 +72,23 @@
 .dcl.footer .social-links .social-icon.twitter {
   background-image: url('../../assets/twitter.svg');
 }
+.dcl.footer .social-links .social-icon.medium {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'%0Awidth='16' height='16'%0AviewBox='0 0 50 50'%0Astyle=' fill:%2356545f;'%3E%3Cpath d='M 46 13.5 L 44.894531 13.5 C 43.4375 13.507813 42.992188 14.179688 43 15.5 L 43 34 C 43.023438 35.074219 43.46875 35.480469 44.320313 35.5 L 46 35.5 L 46 40.5 L 31 40.5 L 31 35.5 L 34 35.5 L 34 15.5 L 26.105469 40.5 L 21.683594 40.5 L 14 15.5 L 14 35.5 L 16 35.5 L 16 40.5 L 4 40.5 L 4 35.5 L 5 35.5 C 6.492188 35.535156 7 34.128906 7 33.5 L 7 15.5 C 7.011719 14.484375 6.105469 13.472656 5 13.5 L 4 13.5 L 4.027344 7.5 L 19.5 7.5 L 25 25.964844 L 30.5 7.5 L 46 7.5 Z'%3E%3C/path%3E%3C/svg%3E");
+  }
+  
+  .dcl.footer .social-links .social-icon.telegram {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'%0Awidth='16' height='16'%0AviewBox='0 0 50 50'%0Astyle=' fill:%2356545f;'%3E%3Cpath d='M46.137,6.552c-0.75-0.636-1.928-0.727-3.146-0.238l-0.002,0C41.708,6.828,6.728,21.832,5.304,22.445 c-0.259,0.09-2.521,0.934-2.288,2.814c0.208,1.695,2.026,2.397,2.248,2.478l8.893,3.045c0.59,1.964,2.765,9.21,3.246,10.758 c0.3,0.965,0.789,2.233,1.646,2.494c0.752,0.29,1.5,0.025,1.984-0.355l5.437-5.043l8.777,6.845l0.209,0.125 c0.596,0.264,1.167,0.396,1.712,0.396c0.421,0,0.825-0.079,1.211-0.237c1.315-0.54,1.841-1.793,1.896-1.935l6.556-34.077 C47.231,7.933,46.675,7.007,46.137,6.552z M22,32l-3,8l-3-10l23-17L22,32z'%3E%3C/path%3E%3C/svg%3E");
+  }
+  .dcl.footer .social-links .social-icon.facebook {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'%0Awidth='16' height='16'%0AviewBox='0 0 50 50'%0Astyle=' fill:%2356545f;'%3E%3Cpath d='M32,11h5c0.552,0,1-0.448,1-1V3.263c0-0.524-0.403-0.96-0.925-0.997C35.484,2.153,32.376,2,30.141,2C24,2,20,5.68,20,12.368 V19h-7c-0.552,0-1,0.448-1,1v7c0,0.552,0.448,1,1,1h7v19c0,0.552,0.448,1,1,1h7c0.552,0,1-0.448,1-1V28h7.222 c0.51,0,0.938-0.383,0.994-0.89l0.778-7C38.06,19.518,37.596,19,37,19h-8v-5C29,12.343,30.343,11,32,11z'%3E%3C/path%3E%3C/svg%3E");}
+  
+
+
+
+
+
+
+
 
 .dcl.footer .copyright {
   color: var(--secondary-text);

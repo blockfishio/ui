@@ -75,30 +75,34 @@ export class Footer extends React.PureComponent<FooterProps> {
             i18n={i18n.dropdown}
           />
           <div className="links">
+            
             <a href="https://decentraland.org">{i18n.links.home}</a>
             <a href="https://decentraland.org/privacy">{i18n.links.privacy}</a>
-            <a href="https://decentraland.org/terms">{i18n.links.terms}</a>
+            {/* <a href="https://decentraland.org/terms">{i18n.links.terms}</a>
             <a href="https://decentraland.org/content">{i18n.links.content}</a>
-            <a href="https://decentraland.org/ethics">{i18n.links.ethics}</a>
+            <a href="https://decentraland.org/ethics">{i18n.links.ethics}</a> */}
           </div>
         </div>
         <div className="secondary-footer">
           <div className="social-links">
-            <a href="https://dcl.gg/discord">
+            <a href="https://discord.com/invite/cUeNS8UzGW">
               <i className="social-icon discord" />
             </a>
-            <a href="https://reddit.com/r/decentraland">
-              <i className="social-icon reddit" />
+            <a href="https://t.me/Spacey2025">
+              <i className="social-icon telegram" />
             </a>
-            <a href="https://github.com/decentraland">
-              <i className="social-icon github" />
+            <a href="https://medium.com/@spacey2025">
+              <i className="social-icon medium" />
             </a>
-            <a href="https://twitter.com/decentraland">
+            <a href="https://twitter.com/spacey2025">
               <i className="social-icon twitter" />
+            </a>
+            <a href= "https://www.facebook.com/SpaceY-2025-102636005328431" >
+              <i className="social-icon facebook" />
             </a>
           </div>
           <div className="copyright">
-            © {new Date().getFullYear()} Decentraland
+            © {new Date().getFullYear()} SpaceY2025
           </div>
         </div>
       </Container>

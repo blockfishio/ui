@@ -28,13 +28,13 @@ export type AtlasState = {
 
 const COLOR_BY_TYPE = Object.freeze({
   0: '#ff9990', // my parcels
-  1: '#ff4053', // my parcels on sale
+  1: '#e68a00', // my parcels on sale
   2: '#ff9990', // my estates
   3: '#ff4053', // my estates on sale
   4: '#ffbd33', // parcels/estates where I have permissions
   5: '#5054D4', // districts
   6: '#563db8', // contributions
-  7: '#716C7A', // roads
+  7: '#808080', // roads
   8: '#70AC76', // plazas
   9: '#3D3A46', // owned parcel/estate
   10: '#3D3A46', // parcels on sale (we show them as owned parcels)
