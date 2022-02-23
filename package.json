@@ -1,6 +1,6 @@
 {
   "name": "spacey-ui",
-  "version": "0.0.1-development",
+  "version": "0.0.2-development",
   "description": "SpaceY's UI components and styles",
   "main": "lib/index.js",
   "module": "dist/index.js",
